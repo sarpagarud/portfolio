@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Convexus — Premium, high-converting landing pages designed with cutting-edge design systems. Turn visitors into customers with psychology-driven, lightning-fast pages.">
+    <meta name="keywords" content="landing page design, high converting landing pages, saas landing page, custom landing page, conversion optimization">
+    <title>Convexus | Landing Pages That Convert</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&display=swap');
+
+        :root {
+            /* High-End Techy Professional Palette */
+            --color-primary: #0a0f1c;           /* Deep space navy */
+            --color-primary-dark: #05070f;
+            --color-secondary: #22d3ee;         /* Electric cyan */
+            --color-accent: #c026d3;            /* Vibrant magenta */
+            --color-bg: #f8fafc;
+            --color-surface: #ffffff;
+            --color-text: #0f172a;
+            --color-text-secondary: #64748b;
+            --color-border: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .heading-font {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .hero-bg {
+            background: linear-gradient(135deg, #0a0f1c 0%, #1e2937 100%);
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #22d3ee, #c026d3, #67e8f9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-link {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .nav-link:hover {
+            color: var(--color-secondary);
+            transform: translateY(-1px);
+        }
+
+        .cta-button {
+            transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px) scale(1.03);
+            box-shadow: 0 25px 50px -12px rgb(194 38 211 / 0.4);
+        }
+    </style>
+</head>
+<body class="bg-[var(--color-bg)] text-[var(--color-text)] overflow-x-hidden">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-b border-[var(--color-border)]">
+        <div class="max-w-screen-2xl mx-auto px-8 py-6 flex items-center justify-between">
+            <div class="flex items-center gap-x-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-[#22d3ee] to-[#c026d3] rounded-2xl flex items-center justify-center text-white text-3xl font-bold shadow-inner">C</div>
+                <span class="heading-font text-3xl font-semibold tracking-tighter">Convexus</span>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-x-10 text-sm font-medium">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+            </div>
+
+            <a href="#contact" 
+               class="px-8 py-3.5 bg-[var(--color-primary)] text-white rounded-2xl font-semibold text-sm tracking-wider hover:bg-black transition-all cta-button">
+                START PROJECT
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg pt-32 pb-24 text-white min-h-screen flex items-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(at_center,#22d3ee15_0%,transparent_70%)]"></div>
+        
+        <div class="max-w-screen-2xl mx-auto px-8 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 backdrop-blur-md rounded-3xl text-sm mb-8 border border-white/20">
+                    <span class="relative flex h-3 w-3">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#22d3ee] opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-[#22d3ee]"></span>
+                    </span>
+                    NOW BOOKING Q3 2026
+                </div>
+
+                <h1 class="heading-font text-7xl md:text-8xl font-semibold tracking-tighter leading-none mb-8">
+                    Landing pages that<br>
+                    <span class="gradient-text">actually convert</span>
+                </h1>
+
+                <p class="text-2xl text-white/80 max-w-2xl mx-auto mb-12">
+                    Premium, high-end landing pages engineered for maximum conversion. 
+                    Built with conversion psychology, modern aesthetics, and obsessive attention to detail.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-5 justify-center items-center">
+                    <a href="#contact" 
+                       class="cta-button px-12 py-6 bg-[#c026d3] hover:bg-[#a21ca5] text-white text-xl font-semibold rounded-3xl inline-flex items-center gap-x-3 shadow-2xl">
+                        <span>Get Your Page Built</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#work" 
+                       class="px-10 py-6 border-2 border-white/60 hover:border-white text-white text-xl font-medium rounded-3xl transition-all">
+                        View Recent Work →
+                    </a>
+                </div>
+
+                <div class="flex items-center justify-center gap-x-10 mt-16 text-sm opacity-75">
+                    <div class="flex items-center gap-x-2">
+                        <i class="fa-solid fa-check text-[#22d3ee]"></i>
+                        <span>Lightning Fast</span>
+                    </div>
+                    <div class="flex items-center gap-x-2">
+                        <i class="fa-solid fa-check text-[#22d3ee]"></i>
+                        <span>SEO Optimized</span>
+                    </div>
+                    <div class="flex items-center gap-x-2">
+                        <i class="fa-solid fa-check text-[#22d3ee]"></i>
+                        <span>Conversion Focused</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
+            <i class="fa-solid fa-chevron-down text-3xl text-white/40"></i>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <div class="py-6 bg-white border-b border-[var(--color-border)]">
+        <div class="max-w-screen-2xl mx-auto px-8 flex flex-wrap justify-center items-center gap-x-16 gap-y-6 text-xl font-medium opacity-70">
+            <div>Stripe</div>
+            <div>Linear</div>
+            <div>Vercel</div>
+            <div>Notion</div>
+            <div>Framer</div>
+            <div>Arc</div>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <section id="features" class="py-28 bg-white">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-6xl font-semibold tracking-tighter mb-4">Engineered for Conversion</h2>
+                <p class="text-xl text-[var(--color-text-secondary)] max-w-xl mx-auto">
+                    Every pixel serves a purpose. Every interaction is intentional.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-10 border border-[var(--color-border)] rounded-3xl hover:border-[#22d3ee] transition-all group">
+                    <div class="text-6xl mb-8 text-[#22d3ee]">01</div>
+                    <h3 class="text-3xl font-semibold mb-4">Conversion Architecture</h3>
+                    <p class="text-[var(--color-text-secondary)] leading-relaxed">Strategic hierarchy, micro-animations, and behavioral triggers proven to boost conversions by 3-7×.</p>
+                </div>
+                <div class="p-10 border border-[var(--color-border)] rounded-3xl hover:border-[#c026d3] transition-all group">
+                    <div class="text-6xl mb-8 text-[#c026d3]">02</div>
+                    <h3 class="text-3xl font-semibold mb-4">Premium Design System</h3>
+                    <p class="text-[var(--color-text-secondary)] leading-relaxed">Tailwind v4, obsessive typography, glassmorphism, and next-gen visual language.</p>
+                </div>
+                <div class="p-10 border border-[var(--color-border)] rounded-3xl hover:border-[#22d3ee] transition-all group">
+                    <div class="text-6xl mb-8 text-[#22d3ee]">03</div>
+                    <h3 class="text-3xl font-semibold mb-4">Blazing Performance</h3>
+                    <p class="text-[var(--color-text-secondary)] leading-relaxed">Core Web Vitals 98+, SEO-ready semantic code, and instant load times.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="py-28 bg-[var(--color-bg)]">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <div class="flex justify-between items-end mb-12">
+                <h2 class="heading-font text-6xl font-semibold tracking-tighter">Recent Conversions</h2>
+                <a href="#" class="text-[#c026d3] font-medium flex items-center gap-x-2 hover:gap-x-3 transition-all">
+                    View all projects <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="group rounded-3xl overflow-hidden bg-white border border-transparent hover:border-[#22d3ee]/30 transition-all">
+                    <div class="h-96 bg-gradient-to-br from-violet-400 via-fuchsia-500 to-cyan-400 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <p class="text-4xl font-bold">SaaS Dashboard</p>
+                            <p class="text-lg opacity-75 mt-2">+412% signups</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="group rounded-3xl overflow-hidden bg-white border border-transparent hover:border-[#c026d3]/30 transition-all">
+                    <div class="h-96 bg-gradient-to-br from-rose-400 to-amber-400 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <p class="text-4xl font-bold">AI Tool</p>
+                            <p class="text-lg opacity-75 mt-2">$214k in 21 days</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="contact" class="py-32 bg-[var(--color-primary)] text-white">
+        <div class="max-w-2xl mx-auto text-center px-8">
+            <h2 class="heading-font text-6xl font-semibold tracking-tighter mb-6">Ready to launch your highest-converting page yet?</h2>
+            <p class="text-2xl text-white/70 mb-12">Premium one-page experience starting at $2,900. Delivery in 10 days.</p>
+            
+            <a href="mailto:hello@convexus.dev" 
+               class="inline-block px-16 py-8 bg-gradient-to-r from-[#22d3ee] to-[#c026d3] text-2xl font-semibold rounded-3xl cta-button">
+                Start Your Project Today
+            </a>
+            
+            <p class="mt-8 text-white/60">Limited slots • 3 projects per month</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[var(--color-primary-dark)] text-white/60 py-12">
+        <div class="max-w-screen-2xl mx-auto px-8 text-center">
+            <p class="text-sm">© 2026 Convexus • High-Conversion Landing Page Studio</p>
+        </div>
+    </footer>
+</body>
+</html>
